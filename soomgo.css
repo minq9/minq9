@@ -1,0 +1,255 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+ul {
+    list-style-type: none;
+}
+li {
+    margin-right: 10px;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+p {
+    font-weight: bold;
+    font-size: 15px;
+}
+input {
+    background-color: gainsboro;
+    border: none;
+}
+header {
+    width: 100%;
+    height: 100px;
+    z-index: 100;
+}
+
+h2 {
+    margin: 20px 0;
+}
+.allsee {
+    color: turquoise;
+}
+.header-container {
+    width: 1000px;
+    height: 100px;
+    background-color: white;
+    position: fixed;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 100;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.main-container {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.left-section {
+    display: flex;
+}
+.left-list {
+    display: flex;
+    margin: 10px 30px;
+    font-weight: bold;
+}
+.center-section {
+    display: flex;
+}
+.serch {
+    display: flex;
+    width: 250px;
+    height: 40px;
+    background-color: gainsboro;
+    border-radius: 10px;
+    align-items: center;
+}
+.right-section {
+    display: flex;
+}
+.right-list {
+    display: flex;
+}
+.right-list-box {
+    display: flex;
+    width: 70px;
+    height: 40px;
+    border-radius: 10px;
+    background-color: turquoise;
+    color: white;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-container {
+    display: flex;
+    justify-content: space-between;
+}
+.card {
+    display: inline;
+    width: 240px;
+    height: auto;
+}
+.carda {
+    display: inline-block;
+    width: 240px;
+}
+
+.service-img {
+    display: inline-block;
+    width: 240px;
+    height: 150px;
+    border-radius: 10px;
+}
+
+.menu {
+    margin: 50px 0;
+    display: flex;
+    justify-content: center;
+}
+.menu1 {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    border-radius: 10px;
+    margin: 0 auto;
+    text-align: center;
+    margin: 0 10px;
+}
+.menu-txt {
+    display: block;
+    font-weight: bold;
+    margin: 0 auto;
+    align-items: center;
+}
+
+.hiding-pro-container {
+    display: flex;
+    width: 100%;
+    height: 200px;
+    justify-content: space-between;
+    align-items: center;
+}
+.hiding-left {
+    display: flex;
+    flex-direction: column;
+    width: 33%;
+}
+.hiding-right {
+    display: flex;
+    width: 67%;
+}
+.hiding-right-list {
+    display: flex;
+    flex-direction: row;
+}
+.hiding-space {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60px;
+    height: 35px;
+    border-radius: 20px;
+    background-color: aliceblue;
+    color: turquoise;
+}
+
+.pro-together {
+    display: flex;
+    justify-content: space-between;
+}
+.together {
+    display: inline-block;
+    width: 480px;
+    height: 200px;
+    background-color: gainsboro;
+    border-radius: 10px;
+}
+
+.question {
+    width: 100%;
+    height: 350px;
+}
+
+.btns {
+    height: 60px;
+}
+.btn {
+    border-style: none;
+    border-radius: 10px;
+    padding: 10px;
+    font-weight: bold;
+    height: 40px;
+    cursor: pointer;
+}
+
+.meeting {
+    height: 200px;
+}
+
+.story {
+    height: 250px;
+}
+
+footer {
+    border-top: 1px solid gainsboro;
+    display: flex;
+}
+.footer-container {
+    display: inline-block;
+    height: 500px;
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.up {
+    display: flex;
+    height: 250px;
+}
+.up-left {
+    display: inline-block;
+    width: 500px;
+}
+.up-right {
+    display: inline-block;
+    width: 500px;
+}
+.up-right-list {
+    display: flex;
+    font-size: 14px;
+    flex-direction: row;
+    justify-content: right;
+}
+.list-title {
+    font-weight: bold;
+}
+.list-menus {
+    display: flex;
+    flex-direction: column;
+}
+.list-menu {
+    color: gray;
+    margin-top: 5px;
+}
+.down {
+    display: flex;
+    height: 250px;
+}
+
+.down-right {
+    display: flex;
+    width: 200px;
+    justify-content: space-between;
+}
+
+.portfolio-img {
+    display: inline-block;
+    width: 240px;
+    height: 240px;
+    border-radius: 10px;
+}
